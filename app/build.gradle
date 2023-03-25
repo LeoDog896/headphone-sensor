@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion '27.0.3'
     defaultConfig {
-        applicationId "online.cubemc.cube"
+        applicationId "com.leodog896.headphonesensor"
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 4

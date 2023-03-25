@@ -1,4 +1,4 @@
-package online.cubemc.cube;
+package com.leodog896.headphonesensor;
 
 import android.content.Context;
 import android.media.AudioManager;
