@@ -1,5 +1,7 @@
-# headphone-sensor
- an app to detect headphone connections
+![Headphone Sensor](.github/banner.svg)
+
+# Headphone Sensor 🎧
+the missing detection for your wired headphones
 
 ## notes
 
