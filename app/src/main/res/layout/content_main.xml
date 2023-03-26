@@ -14,26 +14,24 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
         android:layout_marginLeft="76dp"
-        android:layout_marginTop="8dp"
         android:text="Headset has an unknown state, update it."
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.46" />
+        app:layout_constraintVertical_bias="0.469" />
 
     <TextView
         android:id="@+id/textViewTrouble"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.80"/>
+        app:layout_constraintVertical_bias="0.80" />
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
