@@ -27,11 +27,11 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        textview = (TextView) findViewById(R.id.textView1);
-        trouble = (TextView) findViewById(R.id.textViewTrouble);
+        textview = findViewById(R.id.textView1);
+        trouble = findViewById(R.id.textViewTrouble);
         audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
 
         if (audioManager.isWiredHeadsetOn())
