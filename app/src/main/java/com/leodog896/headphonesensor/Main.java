@@ -41,7 +41,7 @@ public class Main extends AppCompatActivity {
         else
             textview.setText("Headset has an unknown state, update it.");
 
-        Button button = (Button) findViewById(R.id.button);
+        Button button = findViewById(R.id.button);
         button.setOnClickListener(
                 v -> {
                     if (audioManager.isWiredHeadsetOn()) {
